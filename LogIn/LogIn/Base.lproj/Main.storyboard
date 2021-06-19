@@ -41,13 +41,6 @@
                                     <action selector="UserPassword:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="Pd8-cr-txx"/>
                                 </connections>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k23-ky-WUt">
-                                <rect key="frame" x="69" y="230" width="17" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8nc-Pg-0p5">
                                 <rect key="frame" x="69" y="358" width="74" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -68,6 +61,13 @@
                                     <action selector="LogIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uqP-jj-6gw"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k23-ky-WUt">
+                                <rect key="frame" x="69" y="230" width="17" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
@@ -75,7 +75,6 @@
                     <connections>
                         <outlet property="password" destination="8nc-Pg-0p5" id="FEE-m2-JSB"/>
                         <outlet property="passwordTextField" destination="2qi-sd-4Wx" id="Jxz-gw-Jkt"/>
-                        <outlet property="username" destination="k23-ky-WUt" id="CZW-gb-9y3"/>
                         <outlet property="usernameTextField" destination="dle-Np-7Gh" id="jJ4-BX-6Dw"/>
                     </connections>
                 </viewController>
