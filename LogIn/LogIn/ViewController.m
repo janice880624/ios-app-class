@@ -37,7 +37,7 @@
 //    UIAlertController *alertController1 = [UIAlertController alertControllerWithTitle:@"大標題" message:@"小標題" preferredStyle:UIAlertControllerStyleAlert];
     
     UIAlertAction* ShowButton = nil;
-//    UIAlertAction* ShowButton2 = nil;
+    UIAlertAction* ShowButton2 = nil;
     
     if([self.username isEqualToString: InputId] && [self.password isEqualToString: InputPassword]){
 
@@ -54,10 +54,10 @@
             [self presentViewController:loginsucess animated:YES completion:nil];
         }];
 
-//        ShowButton = [UIAlertAction actionWithTitle:@"呵呵" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action){
+        ShowButton2 = [UIAlertAction actionWithTitle:@"呵呵" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action){
 //            NSLog(@"OK hander");
 ////            [self presentViewController:loginsucess animated:YES completion:nil];
-//        }];
+        }];
 
     }else{
         [alertController setMessage:[NSString stringWithFormat:@"%@ 登入失敗", InputId]];
@@ -71,7 +71,7 @@
 //    }]
     
     [alertController addAction: ShowButton];
-//    [alertController addAction: ShowButton2];
+    [alertController addAction: ShowButton2];
     
     [self presentViewController:alertController animated:YES completion:nil];
 //    [self presentViewController:alertController1 animated:TRUE completion:nil];
