@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11542936268AE730001A4E78 /* LoginSucess.m in Sources */ = {isa = PBXBuildFile; fileRef = 11542934268AE730001A4E78 /* LoginSucess.m */; };
+		11542937268AE730001A4E78 /* LoginSucess.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11542935268AE730001A4E78 /* LoginSucess.xib */; };
 		11952FA72674B43C00BB23D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11952FA62674B43C00BB23D4 /* AppDelegate.m */; };
 		11952FAA2674B43C00BB23D4 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11952FA92674B43C00BB23D4 /* SceneDelegate.m */; };
 		11952FAD2674B43C00BB23D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11952FAC2674B43C00BB23D4 /* ViewController.m */; };
@@ -36,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11542933268AE730001A4E78 /* LoginSucess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginSucess.h; sourceTree = "<group>"; };
+		11542934268AE730001A4E78 /* LoginSucess.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginSucess.m; sourceTree = "<group>"; };
+		11542935268AE730001A4E78 /* LoginSucess.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginSucess.xib; sourceTree = "<group>"; };
 		11952FA22674B43C00BB23D4 /* LogIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11952FA52674B43C00BB23D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		11952FA62674B43C00BB23D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -115,6 +120,9 @@
 				11952FB32674B43D00BB23D4 /* LaunchScreen.storyboard */,
 				11952FB62674B43D00BB23D4 /* Info.plist */,
 				11952FB72674B43D00BB23D4 /* main.m */,
+				11542933268AE730001A4E78 /* LoginSucess.h */,
+				11542934268AE730001A4E78 /* LoginSucess.m */,
+				11542935268AE730001A4E78 /* LoginSucess.xib */,
 			);
 			path = LogIn;
 			sourceTree = "<group>";
@@ -242,6 +250,7 @@
 				11952FB52674B43D00BB23D4 /* LaunchScreen.storyboard in Resources */,
 				11952FB22674B43D00BB23D4 /* Assets.xcassets in Resources */,
 				11952FB02674B43C00BB23D4 /* Main.storyboard in Resources */,
+				11542937268AE730001A4E78 /* LoginSucess.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11952FAD2674B43C00BB23D4 /* ViewController.m in Sources */,
+				11542936268AE730001A4E78 /* LoginSucess.m in Sources */,
 				11952FA72674B43C00BB23D4 /* AppDelegate.m in Sources */,
 				11952FB82674B43D00BB23D4 /* main.m in Sources */,
 				11952FAA2674B43C00BB23D4 /* SceneDelegate.m in Sources */,
